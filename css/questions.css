@@ -1,0 +1,210 @@
+@media (max-width:480px){
+    /**/
+    section{
+        padding: 60px 0 75px;
+        display: block;
+        position: relative;
+    }
+    .section-header{
+        position: relative;
+        display: block;
+    }
+    .section-header::before{
+        position: absolute;
+        content: " ";
+        background: url("../img/pattern-top01.png");
+        width: 200px;
+        top: -40px;
+        margin: auto;
+        height: 31px;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .icon-header {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .section-header h2 {
+        font-family: 'TheSans-8ExtraBold';
+        font-size: 54px;
+        line-height: 40px;
+        text-align: center;
+        color: #000;
+        margin: 0;
+        text-transform: uppercase;
+        padding-top: 10px;
+    }
+    .section-header h2 div {
+        font-family: 'TheSans-6SemiBold';
+        font-size: 36px;
+        line-height: 42px;
+        vertical-align: baseline;
+    }
+    .header-txt {
+        background-image: url(../img/questions/questions-bgimg.png);
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        background-size: cover;
+        padding: 0 0 20px;
+    }
+    .heading-cm {
+        font-family: 'TheSans-8ExtraBold';
+        font-size: 40px;
+        line-height: 34px;
+        text-align: center;
+        color: #daac7b;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 20px 0;
+    }
+    .para-cm{
+        font-family: 'TheSans-6SemiBold';
+        font-size: 26px;
+        line-height: 32px;
+        text-align: left;
+        color: #120e0f;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0 0;
+    }
+    .slider-img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*Carousel*/
+    .mp-carousel{
+        width: 100%;
+        margin-top: 120px;
+        display: inline-block;
+    }
+    .mp-carousel .carousel-control {
+        background-image: none;
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 47px;
+        top: 130px;
+        opacity: 1;
+    }
+    .mp-carousel .carousel-control.right {
+        right: 30px;
+    }
+    .mp-carousel .carousel-control.left {
+        left: 30px;
+    }
+    .mp-carousel .carousel-control img {
+        width: 100%;
+    }
+    .carousel-indicators li {
+        border: 1px solid #daac7b;
+    }
+    .mp-carousel .carousel-indicators .active {
+        background-color: #daac7b;
+    }
+    .mp-carousel::before {
+        position: absolute;
+        content: " ";
+        background: url(../img/pattern-top01.png);
+        width: 200px;
+        top: -45px;
+        margin: auto;
+        height: 31px;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .carousel-indicators {
+        position: absolute;
+        bottom: -55px;
+        left: 50%;
+        z-index: 15;
+        width: 60%;
+        padding-left: 0;
+        margin-left: -30%;
+        text-align: center;
+        list-style: none;
+    }
+    .custom-text {
+        font-family: 'TheSans-8ExtraBold';
+    }
+    .clr-txt {
+        color: #9f288a;
+        font-family: 'TheSans-8ExtraBold';
+    }
+    .custom-purp {
+        color: #ab3f94;
+    }
+}
+
+@media (max-width:414px) {
+    .header-txt {
+        padding: 0 0 35px;
+    }
+    .mp-carousel .carousel-control.right {
+        right: 15px;
+    }
+    .mp-carousel .carousel-control.left {
+        left: 15px;
+    }
+    .heading-cm {
+        font-size: 36px;
+        line-height: 30px;
+    }
+    .heading-cm span, .heading-cm div {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .para-cm {
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+
+@media (max-width:360px){
+    .section-header::before {
+        width: 160px;
+        height: 26px;
+        top: -34px;
+        background-size: contain;
+    }
+    .mp-carousel::before {
+        width: 160px;
+        height: 26px;
+        background-size: contain;
+    }
+    .mp-carousel {
+        margin-top: 100px;
+    }
+    .section-header h2 span {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .section-header h2 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .para-cm {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .heading-cm {
+        font-size: 34px;
+        line-height: 29px;
+    }
+}
+
+@media (max-width:320px){
+    .heading-cm {
+        font-size: 26px;
+        line-height: 24px;
+    }
+    .mp-carousel .carousel-control {
+        width: 20px;
+        height: 47px;
+        top: 105px;
+    }
+}

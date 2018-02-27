@@ -1,0 +1,273 @@
+@media (max-width:480px){
+    /**/
+    section{
+        padding: 40px 0;
+        display: block;
+        position: relative;
+    }
+    .section-header{
+        position: relative;
+        display: block;
+    }
+    .section1 {
+        padding-bottom: 0;
+        padding-top: 60px;
+    }
+    .section-header::before {
+        position: absolute;
+        content: " ";
+        background: url(../img/pattern-top01.png);
+        width: 200px;
+        top: -40px;
+        margin: auto;
+        height: 31px;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-header h2{
+        font-family: 'TheSans-8ExtraBold';
+        font-size: 54px;
+        line-height: 45px;
+        text-align: center;
+        color: #000;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    .section-header h2 span {
+        font-family: 'TheSans-6SemiBold';
+        font-size: 36px;
+        line-height: 30px;
+    }
+    .icon-header {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .header-txt {
+        background-image: url(../img/companies/companies-bgimg.png);
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        background-size: cover;
+    }
+    .heading-cm {
+        font-family: 'TheSans-8ExtraBold';
+        font-size: 40px;
+        line-height: 34px;
+        text-align: center;
+        color: #daac7b;
+        text-transform: uppercase;
+    }
+    .para-cm{
+        font-family: 'TheSans-6SemiBold';
+        font-size: 26px;
+        line-height: 32px;
+        text-align: left;
+        color: #120e0f;
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .custom-text {
+        font-family: 'TheSans-8ExtraBold';
+    }
+    .clr-txt {
+        color: #a53692;
+        text-align: center;
+    }
+    .para-list {
+        padding: 30px 0 20px;
+        text-align: center;
+    }
+    .companies-footer-img {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    /*carousel*/
+    .mp-carousel .item{
+        height: 648px;
+    }
+    .mp-carousel::before {
+        position: absolute;
+        content: " ";
+        background: url(../img/pattern-top01.png);
+        width: 200px;
+        top: -45px;
+        margin: auto;
+        height: 31px;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mp-carousel::after {
+        position: absolute;
+        content: " ";
+        background: url(../img/pattern-bottom01.png);
+        width: 200px;
+        bottom: 0px;
+        margin: auto;
+        height: 31px;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .carousel-indicators {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        z-index: 15;
+        width: 60%;
+        padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
+        list-style: none;
+    }
+    .mp-carousel02 .mp-carou-img::before {
+        position: absolute;
+        content: " ";
+        background: url(../img/pattern-top01.png);
+        width: 200px;
+        top: 125px;
+        margin: auto;
+        height: 31px;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mp-carousel {
+        width: 100%;
+        margin-top: 40px;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 50px;
+    }
+    .mp-carousel02{
+        width: 100%;
+        margin-top: 40px;
+        display: inline-block;
+        position: relative;
+    }
+    .mp-carousel .slider-img {
+        width: 100%;
+    }
+    .mp-carousel02 .mp-carou-img {
+        display: block;
+        margin: 0 auto 80px;
+        width: 100px;
+        border: 5px dotted #daac7b;
+        border-radius: 50%;
+        height: 100px;
+        display: flex;
+    }
+    .mp-carousel02 .mp-carou-img img {
+        display: block;
+        margin: 0 auto;
+        width: 54px;
+        height: 75px;
+        padding-top: 14px;
+    }
+    .mp-carousel .carousel-control {
+        background-image: none;
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 47px;
+        top: 25%;
+        opacity: 1;
+    }
+    .mp-carousel .carousel-control.right {
+        right: 20px;
+    }
+    .mp-carousel .carousel-control.left {
+        left: 20px;
+    }
+    .mp-carousel .carousel-control img {
+        width: 100%;
+    }
+}
+
+@media (max-width:414px) {
+    .mp-carousel .item {
+        height: 610px;
+    }
+    .mp-carousel .carousel-control.right {
+        right: 10px;
+    }
+    .mp-carousel .carousel-control.left {
+        left: 10px;
+    }
+    .mp-carousel .carousel-control {
+        background-image: none;
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 47px;
+        top: 21%;
+        opacity: 1;
+    }
+}
+
+@media (max-width:375px) {
+    .mp-carousel .item {
+        height: 572px;
+    }
+    .section-header h2 span {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .section-header h2 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .para-cm {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .heading-cm {
+        font-size: 34px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width:360px){
+    .section-header::before {
+        width: 160px;
+        height: 26px;
+        top: -35px;
+        background-size: contain;
+    }
+    .mp-carousel02 .mp-carou-img::before {
+        width: 160px;
+        height: 26px;
+        background-size: contain;
+    }
+    .mp-carousel::before {
+        width: 160px;
+        height: 26px;
+        background-size: contain;
+    }
+    .mp-carousel::after {
+        width: 160px;
+        height: 26px;
+        background-size: contain;
+    }
+    .mp-carousel .item {
+        height: 500px;
+    }
+    .mp-carousel .carousel-control {
+        width: 20px;
+        height: 47px;
+        top: 23%;
+    }
+    .header-txt {
+        padding: 0 0 10px;
+    }
+    .header-txt {
+        padding: 0 0 50px;
+    }
+}

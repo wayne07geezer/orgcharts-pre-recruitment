@@ -1,0 +1,298 @@
+@media (max-width:480px){
+    /**/
+    section{
+        padding: 40px 0;
+        display: block;
+        position: relative;
+    }
+    .section1 {
+        padding-bottom: 0;
+        padding-top: 60px;
+    }
+    .section-header{
+        position: relative;
+        display: block;
+    }
+    .section-header::before{
+        position: absolute;
+        content: " ";
+        background: url("../img/pattern-top01.png");
+        width: 200px;
+        top: -40px;
+        margin: auto;
+        height: 31px;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-header::after {
+        position: absolute;
+        content: " ";
+        background: url(../img/code-conduct/code-conduct-img01.png);
+        width: 90px;
+        top: 6px;
+        margin: auto;
+        height: 103px;
+        right: 23px;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-header h2 {
+        font-family: 'TheSans-8ExtraBold';
+        font-size: 54px;
+        line-height: 45px;
+        text-align: center;
+        color: #000000;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    .info-form {
+        width: 95%;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 15px 15px 90px;
+        position: relative;
+        display: table;
+    }
+    .f-name::after {
+        position: absolute;
+        content: " ";
+        border-bottom: 1px solid #797777;
+        width: 63%;
+        top: -61px;
+        margin: auto;
+        height: 103px;
+        right: 23px;
+        z-index: 10;
+    }
+    .d-name::after {
+        position: absolute;
+        content: " ";
+        border-bottom: 1px solid #797777;
+        width: 52%;
+        top: -20px;
+        margin: auto;
+        height: 103px;
+        right: 23px;
+        z-index: 10;
+    }
+    .m-name::after {
+        position: absolute;
+        content: " ";
+        border-bottom: 1px solid #797777;
+        width: 50%;
+        top: 20px;
+        margin: auto;
+        height: 103px;
+        right: 23px;
+        z-index: 10;
+    }
+    .p-name::after {
+        position: absolute;
+        content: " ";
+        border-bottom: 1px solid #797777;
+        width: 40%;
+        top: 64px;
+        margin: auto;
+        height: 103px;
+        right: 23px;
+        z-index: 10;
+    }
+    .one::after {
+        position: absolute;
+        content: " ";
+        border-bottom: 1px solid #797777;
+        width: 91%;
+        top: 104px;
+        margin: auto;
+        height: 103px;
+        right: 23px;
+        z-index: 10;
+    }
+    .two::after {
+        position: absolute;
+        content: " ";
+        border-bottom: 1px solid #797777;
+        width: 91%;
+        top: 144px;
+        margin: auto;
+        height: 103px;
+        right: 23px;
+        z-index: 10;
+    }
+    .heading-cm {
+        font-family: 'TheSans-8ExtraBold';
+        font-size: 40px;
+        line-height: 34px;
+        text-align: center;
+        color: #daac7b;
+        text-transform: uppercase;
+    }
+    .para-cm{
+        font-family: 'TheSans-6SemiBold';
+        font-size: 26px;
+        line-height: 32px;
+        text-align: left;
+        color: #120e0f;
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .clr-txt {
+        color: #797777;
+        padding: 0 0 10px;
+        margin: 0;
+    }
+    /**/
+    .box-list {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box-list-li::before {
+        content: url(../img/check-list.png);
+        padding-right: 20px;
+        position: relative;
+        top: 4px;
+    }
+    .alpha-list {
+        padding: 0px;
+        margin: 0;
+        position: relative;
+    }
+    .box-list-li {
+        padding: 0 0 40px;
+        margin: 0;
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+    }
+    .box-list-li:last-child {
+        padding: 0;
+    }
+    .box-list-in {
+        padding: 0 0 40px;
+        margin: -40px 0 0 55px;
+    }
+}
+
+@media (max-width:414px) {
+    .f-name::after {
+        width: 58%;
+    }
+    .d-name::after {
+        width: 46%;
+    }
+    .m-name::after {
+        width: 43%;
+    }
+    .p-name::after {
+        width: 31%;
+    }
+    .one::after, .two::after {
+        width: 89%;
+    }
+    .section-header::after {
+        width: 69px;
+        top: 20px;
+        height: 78px;
+        right: 17px;
+    }
+}
+
+@media (max-width:375px) {
+    .f-name::after {
+        width: 55%;
+    }
+    .d-name::after {
+        width: 41%;
+    }
+    .m-name::after {
+        width: 38%;
+    }
+    .p-name::after {
+        width: 25%;
+    }
+    .one::after, .two::after {
+        width: 88%;
+    }
+    .section-header::after {
+        width: 69px;
+        top: 20px;
+        height: 78px;
+        right: 2px;
+    }
+}
+
+@media (max-width:360px){
+    .section-header::before {
+        width: 160px;
+        height: 26px;
+        background-size: contain;
+    }
+    .section-header h2 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .para-cm {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .heading-cm {
+        font-size: 34px;
+        line-height: 34px;
+    }
+    .section-header::after {
+        width: 62px;
+        top: -3px;
+        height: 73px;
+        right: 27px;
+    }
+    .f-name::after {
+        top: -67px;
+    }
+    .d-name::after {
+        width: 43%;
+        top: -31px;
+    }
+    .m-name::after {
+        width: 41%;
+        top: 5px;
+    }
+    .p-name::after {
+        width: 29%;
+        top: 41px;
+    }
+    .one::after {
+        top: 82px;
+    }
+    .two::after {
+        top: 118px;
+    }
+}
+
+@media (max-width:320px) {
+    .section-header::after {
+        width: 62px;
+        top: 4px;
+        height: 73px;
+        right: 12px;
+    }
+    .f-name::after {
+        width: 52%;
+    }
+    .d-name::after {
+        width: 38%;
+    }
+    .m-name::after {
+        width: 36%;
+    }
+    .p-name::after {
+        width: 23%;
+    }
+    .one::after, .two::after {
+        width: 87%;
+    }
+}
